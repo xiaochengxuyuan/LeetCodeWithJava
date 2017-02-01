@@ -16,4 +16,11 @@ public class Solution {
         }
         return new String(chars);
     }
+    
+    /*
+     发现这样似乎更方便一点。。。
+    */
+    public String reverseString(String s) {
+        return new StringBuilder(s).reverse().toString();
+    }
 }
